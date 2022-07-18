@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.header h1{
+    text-shadow: 2px 2px 5px #000000;
+}
+
 .nav-menu{
     display: flex;
 }
@@ -24,11 +28,13 @@
 
 .hamburger{
     display: none;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 @media screen and (max-width: 1240px){
     .hamburger{
-        display:block
+        display:block;
+        text-shadow: 2px 2px 5px #000000;
     }
 
     .nav-menu{
