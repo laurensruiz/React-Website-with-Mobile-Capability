@@ -10,7 +10,7 @@ function Navbar() {
     }
   return (
     <div className='header'>
-       <Link to='/'><h1>GLX TRVL</h1></Link>
+       <Link to='/'><h1>TRVL NYC</h1></Link>
        <ul className={click ? 'nav-menu active': 'nav-menu'}>
         <li>
             <Link to='/'>Home</Link>
